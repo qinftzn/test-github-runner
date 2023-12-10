@@ -7,7 +7,7 @@ test:
     ./helloTest
 
 clean:
-     $(RM) hello helloTest
+    $(RM) hello helloTest
 Again, manually test the code:
 $ ./configure && make && make test
 g++ -std=c++17 hello.cpp -o hello
